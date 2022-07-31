@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+.guns {
+    width: 20%;
+    background-color: rgb(30, 65, 65);
+    margin-right: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 1;
+}
+.target-area {
+    width: 80%;
+    height: 100vh;
+}
+.myimg{
+    width: 100%;
+    height: 20%;
+    cursor: pointer;
+}
+.opacity {
+    opacity: 0.4;
+}
+.marked {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#title{
+  text-align: center;
+  font-size: 1rem;
+  display: inline-block;
+}
+#clear {
+    cursor: pointer;
+    background-color: rgb(72, 187, 72);
+    color: #fff;
+    right: 10px;
+    top: 10px;
+    height: 20px;
+}
